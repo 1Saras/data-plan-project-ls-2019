@@ -12,6 +12,7 @@ img.logo {
 
 h1 {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #lonewolf {
@@ -27,6 +28,47 @@ h1 {
   text-align: right;
 }
 
+.lonewolfinfo{
+padding-left: 32px;
+}
+
+button.wolf--price {
+  padding: 12px;
+  border-radius:20px;
+  margin-left: 8px;
+  background-color: rgb(95, 213, 136);
+}
+
+button.monthly {
+  padding: 12px;
+  border-radius:20px;
+  margin-left: 8px;
+  background-color: rgb(95, 213, 136);
+}
+
+button.annually {
+  padding: 12px;
+  border-radius:20px;
+  margin-left: 8px;
+  background-color: rgb(95, 213, 136);
+}
+
+button.buy {
+  padding: 12px;
+  border-radius:20px;
+  margin-left: 8px;
+  background-color: #FF5733;
+  color: white;
+}
+
+button.wolf--price:hover, button.annually:hover {
+  background-color: lightgrey;
+}
+
+
+button.buy:hover{
+background-color: #F52C58  ;
+}
 
 
 /* Style inputs with type="text", select elements and textareas */
