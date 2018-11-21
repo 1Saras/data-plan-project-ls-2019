@@ -1,6 +1,9 @@
 var choices = ["3GB", "6GB", "15GB", "30GB", "monthly", "annually"];
 
 var price = 0;
+var chatterbox_price = 0;
+var chatterbox_mins = 0;
+var chatter_gb = 0;
 
 // wolf price calculations and price display//
 
@@ -22,15 +25,15 @@ $(".annually").click(function(event) {
 // chatterbox price calculations and price display//
 
 $(".chatterbox--price").click(function(event) {
-  var chatterbox_gb = this.getAttribute("data-gb");
-  var chatterbox_price = this.getAttribute("data-price");
-  var chatterbox_mins = this.getAttribute("mins-price");
-  price = chatterbox_price;
+  chatterbox_gb = this.getAttribute("data-gb");
+  chatterbox_price= this.getAttribute("data-price");
+  price = chatterbox_price + chatterbox_mins;
   console.log(chatterbox_price);
 });
 
-$(".mins-price").click(function(event) {
-  $("#price").text(price);
+$(".chatterbox--mins").click(function(event) {
+  chatterbox_mins = this.getAttribute("mins-price");
+  price = chatterbox_price + chatterbox_mins;
 });
 
 $(".monthly").click(function(event) {
@@ -40,7 +43,3 @@ $(".monthly").click(function(event) {
 $(".annually").click(function(event) {
   $("#price").text(price * 12);
 });
-
-// wolf_price = parseInt(this.getAttribute("data-price"));
-chatterbox_price = parseInt(this.getAttribute("data-price"));
-chatterbox_price = parseInt(this.getAttribute("mins-price"));
