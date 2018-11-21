@@ -29,8 +29,17 @@ h1 {
 }
 
 .lonewolfinfo{
-padding-left: 32px;
+  font-size: 22px;
+padding-left: 48px;
+margin-bottom: 22px;
 }
+
+h3.step1 {
+  padding-left: 48px;
+  margin-bottom: 28px;
+}
+
+
 
 button.wolf--price {
   padding: 12px;
