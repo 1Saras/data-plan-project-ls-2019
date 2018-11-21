@@ -28,6 +28,7 @@ h1 {
 }
 
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -62,6 +63,31 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.social-media img {
-  width: 60px;
+.btn-twitter {
+  background-color:#1da1f2;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+#social-buttons .btn-primary {
+  border: none;
+  margin-top: 24px;
+}
+
+.btn-twitter:hover {
+  background-color: #60BDF6;
+}
+
+.btn-facebook:hover {
+  background-color: #768BB7;
+}
+
+.btn-linkedin:hover {
+  background-color: #86888a;
 }
