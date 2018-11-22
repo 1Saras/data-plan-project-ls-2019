@@ -1,15 +1,19 @@
 nav {
   background-color: rgba(95, 213, 136, 0.8);
-  }
+}
 
 .navbar-light .navbar-nav .nav-link {
-color: black;
+  color: black;
 }
 
 a.nav-link {
-color: red;
-font-size: 16px;
-border-right-style: solid;
+  color: red;
+  font-size: 16px;
+  border-right-style: solid;
+}
+
+h1.navcompanyname.a {
+  color: black;
 }
 
 div.container {
@@ -34,14 +38,13 @@ h1 {
 }
 
 #products {
-text-align: center;
+  text-align: center;
 }
 
 .homepagepic {
-  border-style:double;
+  border-style: double;
   padding: 28px;
 }
-
 
 .packageimage {
   max-width: 100%
@@ -61,16 +64,14 @@ text-align: center;
   }
 }
 
-
-
 .fromprice {
   text-align: right;
 }
 
 .lonewolfinfo, .chatterboxinfo {
   font-size: 22px;
-padding-left: 48px;
-margin-bottom: 22px;
+  padding-left: 48px;
+  margin-bottom: 22px;
 }
 
 p.chatterboxinfo {
@@ -86,20 +87,20 @@ h3.step1 {
 .step2 {
   padding-left: 38px;
   padding-top: 28px;
-
 }
 
 button.wolf--price, button.chatterbox--price, button.chatterbox--mins, button.view-deal {
   padding: 11px;
-  border-radius:20px;
+  border-radius: 20px;
   margin-left: 21px;
   margin-bottom: 10px;
   background-color: rgb(95, 213, 136);
   font-size: 18px;
 }
+
 .deal {
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 button.view-deal:hover {
@@ -109,7 +110,7 @@ button.view-deal:hover {
 
 button.monthly {
   padding: 11px;
-  border-radius:20px;
+  border-radius: 20px;
   margin-left: 8px;
   background-color: rgb(95, 213, 136);
   font-size: 18px;
@@ -118,7 +119,7 @@ button.monthly {
 
 button.annually {
   padding: 12px;
-  border-radius:20px;
+  border-radius: 20px;
   margin-left: 8px;
   background-color: rgb(95, 213, 136);
   font-size: 18px;
@@ -126,7 +127,7 @@ button.annually {
 
 button.buy {
   padding: 12px;
-  border-radius:20px;
+  border-radius: 20px;
   margin-left: 8px;
   background-color: #FF5733;
   color: white;
@@ -138,7 +139,7 @@ button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--min
   background-color: lightgrey;
 }
 
-.price{
+.price {
   border-style: dashed;
   border-color: green;
   text-align: center;
@@ -154,32 +155,33 @@ button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--min
   }
 }
 
-.buy{
+.buy {
   margin-top: 36px;
 }
 
-#price{
+#price {
   font-size: 22px;
 }
-button.buy:hover{
-background-color: #F52C58  ;
+
+button.buy:hover {
+  background-color: #F52C58;
 }
 
 @media screen and (max-width:766px) {
-  button.buy{
-        text-align: center;
+  button.buy {
+    text-align: center;
   }
 }
 
 .crosspromo {
-font-size: 18px;
-text-align: center;
-padding-top: 22px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 22px;
 }
 
 .phoneus {
-margin-left: 20px;
-margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 
 .rights {
@@ -187,44 +189,50 @@ margin-right: 40px;
   font-size: 12px;
 }
 
-
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
 .containerform {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 .btn-twitter {
-  background-color:#1da1f2;
+  background-color: #1da1f2;
 }
 
 .btn-facebook {
@@ -239,7 +247,6 @@ input[type=submit]:hover {
   border: none;
   margin-top: 24px;
   margin-bottom: 18px;
-
 }
 
 .btn-twitter:hover {
@@ -255,6 +262,6 @@ input[type=submit]:hover {
 }
 
 footer {
-margin-top: 38px;
+  margin-top: 38px;
   text-align: center;
 }
