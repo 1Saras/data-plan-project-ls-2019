@@ -39,20 +39,29 @@ h3.step1 {
   margin-bottom: 28px;
 }
 
+.step2 {
+  padding-left: 38px;
+  padding-top: 28px;
+  align-content: flex-end;
+}
 
 
 button.wolf--price {
-  padding: 12px;
+  padding: 11px;
   border-radius:20px;
-  margin-left: 8px;
+  margin-left: 21px;
+  margin-bottom: 10px;
   background-color: rgb(95, 213, 136);
+  font-size: 18px;
 }
 
 button.monthly {
-  padding: 12px;
+  padding: 11px;
   border-radius:20px;
   margin-left: 8px;
   background-color: rgb(95, 213, 136);
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 button.annually {
@@ -60,6 +69,7 @@ button.annually {
   border-radius:20px;
   margin-left: 8px;
   background-color: rgb(95, 213, 136);
+  font-size: 18px;
 }
 
 button.buy {
@@ -68,17 +78,38 @@ button.buy {
   margin-left: 8px;
   background-color: #FF5733;
   color: white;
+  font-size: 20px;
 }
 
-button.wolf--price:hover, button.annually:hover {
+button.wolf--price:hover, button.annually:hover, button.monthly:hover {
   background-color: lightgrey;
 }
 
+.price{
+  border-style: dashed;
+  border-color: green;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
+.buy{
+  margin-top: 36px;
+}
+
+#price{
+  font-size: 22px;
+}
 button.buy:hover{
 background-color: #F52C58  ;
 }
 
+@media screen and (max-width:766px) {
+  button.buy{
+    text-align: center;
+    display: inline-block;
+  }
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
