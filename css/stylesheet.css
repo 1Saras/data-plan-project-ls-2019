@@ -16,14 +16,28 @@ img.logo {
   width: 150px;
 }
 
+img {
+  width: 150px;
+}
+
 h1 {
   text-align: center;
   padding-bottom: 20px;
 }
 
-#lonewolf, #chatterbox {
+#lonewolf, #chatterbox, #ourmission {
   margin-top: 220px;
 }
+
+#products {
+text-align: center;
+}
+
+.homepagepic {
+  border-style:double;
+  padding: 28px;
+}
+
 
 .packageimage {
   width: 300px;
@@ -40,15 +54,20 @@ padding-left: 48px;
 margin-bottom: 22px;
 }
 
+p.chatterboxinfo {
+  margin-left: 20px;
+}
+
 h3.step1 {
   padding-left: 48px;
   margin-bottom: 28px;
+  margin-left: 16px;
 }
 
 .step2 {
   padding-left: 38px;
   padding-top: 28px;
-  align-content: flex-end;
+
 }
 
 
