@@ -15,6 +15,8 @@ h1 {
   padding-bottom: 20px;
 }
 
+
+
 #lonewolf {
   margin-top: 220px;
 }
@@ -106,10 +108,27 @@ background-color: #F52C58  ;
 
 @media screen and (max-width:766px) {
   button.buy{
-    text-align: center;
-    display: inline-block;
+        display: inline-block;
   }
 }
+
+.crosspromo {
+font-size: 18px;
+text-align: center;
+padding-top: 22px;
+}
+
+.phoneus {
+margin-left: 20px;
+margin-right: 40px;
+}
+
+.rights {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -160,6 +179,8 @@ input[type=submit]:hover {
 #social-buttons .btn-primary {
   border: none;
   margin-top: 24px;
+  margin-bottom: 18px;
+
 }
 
 .btn-twitter:hover {
@@ -172,4 +193,9 @@ input[type=submit]:hover {
 
 .btn-linkedin:hover {
   background-color: #86888a;
+}
+
+footer {
+margin-top: 38px;
+  text-align: center;
 }
