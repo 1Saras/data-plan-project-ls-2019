@@ -9,41 +9,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<nav>
-  <h1>L and S Telecoms</h1>
-  <a href="index.html"><img src="images/LandS-logo.png" alt="L and S Company Logo." /></a>
-  <ul>
-    <li><a href="family.html">Family Package</a></li>
-    <li><a href="lone-wolf.html">Lone Wolf Package</a></li>
-    <li><a href="contactus.html">Contact Us</a></li>
-  </ul>
-</nav>
-
 <body>
-  <section>
-<h1>Chatterbox data package</h1>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg light">
     <div class="container">
+      <a href="index.html"><img class="logo" src="images/LandS-logo.png" alt="L and S Company Logo." /></a>
+  <h1>L and S Telecoms</h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><strong>Homepage</strong></a>
+      </li>
+
+      <li class="nav-item">
+      <a class="nav-link" href="lone-wolf.html"><strong>Lone Wolf Package</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="family.html"><strong>Family Package</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html"><strong>Contact Us</strong></a>
+      </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+
+  <section id="chatterbox">
+<h1>Chatterbox data package</h1>
+    <div class="container" id="chatterbox">
       <h2 class="fromprice">From: £17.00</h2>
       <div class="row">
-        <div class="row">
+        <div class="col-md-4">
+          <img class="packageimage" src="images/chatterbox.jpg" alt="An illustration of a circle of people chatting." />
+        </div>
 
 
-          <img class="packageimage"  src="images/chatterbox.jpg" alt="An illustration of a circle of people chatting." />
-
-
-          <p class="col">Our Chatterbox package is ideal for those who want data but also love to talk and text. Our introductory offer ends next week to catch it before it ends follow the 3 easy steps below, place your order and you could be chattering away
+<div class="col-md-8">
+          <p class="chatterboxinfo">Our Chatterbox package is ideal for those who want data but also love to talk and text. Our introductory offer ends next week to catch it before it ends follow the 3 easy steps below, place your order and you could be chattering away
             within 24
             hours!</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h3>Step 1. Choose your preferred GB per month</h3>
+
+          <h3 class="step1">Step 1. Choose your preferred GB per month</h3>
           <button class="chatterbox--price" data-gb="1GB" data-price="14.00">1GB/ £14</button>
           <button class="chatterbox--price" data-gb="6GB" data-price="18.00">6GB/ £18</button>
           <button class="chatterbox--price" data-gb="10GB" data-price="20.00">10GB/£20</button>
@@ -53,39 +67,68 @@
     </div>
   </section>
 
-  <section>
+
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-8">
+          <div class="step2">
+
           <h3>Step 2. Choose minutes per month</h3>
           <button class="chatterbox--mins" mins="180mins" mins-price="3.00">180 mins/+£3</button>
           <button class="chatterbox--mins" mins="300mins" mins-price="5.00">300 mins/+£5</button>
           <button class="chatterbox--mins" mins="600mins" mins-price="10.00">600 mins/+£10</button>
           <button class="chatterbox--mins" mins="unlimited" mins-price="12.00">unlimited mins/£12</button>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="step3">
   <h3>Step 3. Choose if you want to pay monthly or annually</h3>
   <button class="monthly">Pay monthly</button>
   <button class="annually">Pay annually</button>
-  </section>
+</div>
+</div>
+</div>
+</div>
 
+<div class="container">
+  <div class="row">
+<div class="col-md-2">
+<div class="price">
   <h2>Price</h2>
   <p>£<span id="price">0.00</span></p>
+</div>
+</div>
+<div class="col-md-4">
+  <button class="buy">Buy now</button>
+</div>
+</div>
+</div>
 
-  <button>Buy now</button>
+  <p class="crosspromo"><strong>Need up to 5 sims? Then our <a href="family.html">Family Package</a> offer cannot be missed.</strong></p>
 
-  <p>You can call us 7 days a week on 0800 555 555 if you need a assistance or fancy a chat!</p>
+  <p class="phoneus">You can call us 7 days a week on 0800 555 555 if you need a assistance or fancy a chat!</p>
 
-  <p>Need up to 5 sims? Then our Family Package offer cannot be missed. </p>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
+
 <footer>
-  <p>All rights belong to L and S Telecoms. &copy 2018.</p> <button>Legal t's and c's</button>
+  <p class="rights">All rights belong to L and S Telecoms. &copy; 2018.</p>
+  <button>Legal t's and c's</button>
   <button>Privacy statement</button>
   <button>Sitemap</button>
-  <button type="button" name="Twitter"><a href="https://www.twitter.com"><img src="images/twitter.jpg" </a> </button> <button type="button" name="Facebook"><a href="https://www.facebook.com"><img src="images/facebook.jpg" </a> </button> <button type="button"
-          name="LinkedIn"><a href="https://www.linkedin.com"><img src="images/linkedin.jpg" </a> </button> </footer> </html>
+  <button>Terms of use</button>
+
+  <div id="social-buttons">
+    <a href="" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+    <a href="" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
+    <a href="" class="btn btn-primary btn-lg btn-linkedin">LinkedIn</a>
+  </div>
+
+</footer>
+ </html>
