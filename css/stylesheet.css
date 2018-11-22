@@ -2,9 +2,13 @@ nav {
   background-color: rgba(95, 213, 136, 0.8);
   }
 
+.navbar-light .navbar-nav .nav-link {
+color: black;
+}
+
 a.nav-link {
 color: red;
-font-size: 16px;
+font-size: 14px;
 border-right-style: solid;
 }
 
@@ -17,7 +21,7 @@ img.logo {
 }
 
 img {
-  width: 150px;
+  max-width: 100%;
 }
 
 h1 {
@@ -40,9 +44,24 @@ text-align: center;
 
 
 .packageimage {
-  width: 300px;
-  height: 300px;
+  max-width: 100%
 }
+
+@media screen and (max-width: 766px) {
+  .packageimage {
+    width: 150px;
+    height: 150px;
+    margin-left: 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .packagetitle {
+    font-size: 16px;
+  }
+}
+
+
 
 .fromprice {
   text-align: right;
@@ -104,6 +123,7 @@ button.buy {
   background-color: #FF5733;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 
 button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--mins:hover, button.annually:hover, button.monthly:hover {
@@ -116,6 +136,14 @@ button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--min
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 766px) {
+  .price {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
 }
 
 .buy{
@@ -131,7 +159,7 @@ background-color: #F52C58  ;
 
 @media screen and (max-width:766px) {
   button.buy{
-        display: inline-block;
+        text-align: center;
   }
 }
 
