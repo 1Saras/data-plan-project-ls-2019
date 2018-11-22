@@ -8,7 +8,7 @@ color: black;
 
 a.nav-link {
 color: red;
-font-size: 14px;
+font-size: 16px;
 border-right-style: solid;
 }
 
@@ -29,7 +29,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-#lonewolf, #chatterbox, #ourmission {
+#lonewolf, #chatterbox, #ourmission, form {
   margin-top: 220px;
 }
 
@@ -89,14 +89,22 @@ h3.step1 {
 
 }
 
-
-button.wolf--price, button.chatterbox--price, button.chatterbox--mins {
+button.wolf--price, button.chatterbox--price, button.chatterbox--mins, button.view-deal {
   padding: 11px;
   border-radius:20px;
   margin-left: 21px;
   margin-bottom: 10px;
   background-color: rgb(95, 213, 136);
   font-size: 18px;
+}
+.deal {
+color: black;
+text-decoration: none;
+}
+
+button.view-deal:hover {
+  background-color: lightgrey;
+  text-decoration: none;
 }
 
 button.monthly {
