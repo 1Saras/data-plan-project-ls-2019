@@ -20,27 +20,29 @@ $(".wolf--price").click(function(event) {
 $(".monthly").click(function(event) {
   $(".monthly").css("background-color", "rgb(95, 213, 136)");
   $(this).css("background-color", "lightgrey");
-  $("#price").text(price);
+    $("#price").text(price);
 });
 
 $(".annually").click(function(event) {
-  $(".wolf--annually").css("background-color", "rgb(95, 213, 136)");
+  $(".annually").css("background-color", "rgb(95, 213, 136)");
   $(this).css("background-color", "lightgrey");
   $("#price").text(price * 12);
   $("#price").show();
 });
 
-
-
 // chatterbox price calculations and price display//
 
 $(".chatterbox--price").click(function(event) {
+  $(".chatterbox--price").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   chatterbox_gb = this.getAttribute("data-gb");
   chatterbox_price = this.getAttribute("data-price");
   price = chatterbox_price + chatterbox_mins;
 });
 
 $(".chatterbox--mins").click(function(event) {
+  $(".chatterbox--mins").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   chatterbox_mins = this.getAttribute("mins-price");
   price = parseInt(chatterbox_price) + parseInt(chatterbox_mins);
     $("#price").show();
@@ -48,11 +50,15 @@ $(".chatterbox--mins").click(function(event) {
 });
 
 $(".monthly").click(function(event) {
+  $(".monthly").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   $("#price").text(price);
     $("#price").show();
 });
 
 $(".annually").click(function(event) {
+  $(".annually").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   $("#price").text(price * 12);
     $("#price").show();
 });

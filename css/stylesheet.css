@@ -33,7 +33,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-#lonewolf, #chatterbox, #ourmission, form {
+#lonewolf, #chatterbox, #family, #ourmission, form {
   margin-top: 220px;
 }
 
@@ -68,13 +68,13 @@ h1 {
   text-align: right;
 }
 
-.lonewolfinfo, .chatterboxinfo {
+.lonewolfinfo, .chatterboxinfo, .familyinfo {
   font-size: 22px;
   padding-left: 48px;
   margin-bottom: 22px;
 }
 
-p.chatterboxinfo {
+p.chatterboxinfo, p.familyinfo {
   margin-left: 20px;
 }
 
@@ -99,7 +99,7 @@ h3.step3 {
 }
 
 
-button.wolf--price, button.chatterbox--price, button.chatterbox--mins, button.view-deal {
+button.wolf--price, button.chatterbox--price, button.family--price, button.chatterbox--mins, button.family--sims, button.view-deal {
   padding: 11px;
   border-radius: 20px;
   margin-left: 21px;
@@ -136,8 +136,7 @@ button.annually {
 }
 
 
-
-button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--mins:hover, button.annually:hover, button.monthly:hover {
+button.wolf--price:hover, button.chatterbox--price:hover, button.family--price:hover, button.chatterbox--mins:hover, button.family--sims:hover, button.annually:hover, button.monthly:hover {
   background-color: lightgrey;
 }
 
