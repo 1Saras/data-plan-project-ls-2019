@@ -10,16 +10,22 @@ var chatterbox_gb = 0;
 $("#price").hide();
 
 $(".wolf--price").click(function(event) {
+  $(".wolf--price").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   var wolf_gb = this.getAttribute("data-gb");
   var wolf_price = this.getAttribute("data-price");
   price = wolf_price;
 });
 
 $(".monthly").click(function(event) {
+  $(".monthly").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   $("#price").text(price);
 });
 
 $(".annually").click(function(event) {
+  $(".wolf--annually").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
   $("#price").text(price * 12);
   $("#price").show();
 });
