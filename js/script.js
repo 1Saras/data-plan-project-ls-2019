@@ -62,3 +62,36 @@ $(".annually").click(function(event) {
   $("#price").text(price * 12);
     $("#price").show();
 });
+
+// Family price calculations and price display//
+
+$(".family--price").click(function(event) {
+  $(".family--price").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
+  family_gb = this.getAttribute("data-gb");
+  family_sims = this.getAttribute("sims");
+  price = family_gb + family_sims;
+});
+
+$(".family--sims").click(function(event) {
+  $(".family--sims").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
+  family_sims = this.getAttribute("sims");
+  price = parseInt(family_price) + parseInt(family_sims);
+    $("#price").show();
+    $("#price").hide();
+});
+
+$(".monthly").click(function(event) {
+  $(".monthly").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
+  $("#price").text(price);
+    $("#price").show();
+});
+
+$(".annually").click(function(event) {
+  $(".annually").css("background-color", "rgb(95, 213, 136)");
+  $(this).css("background-color", "lightgrey");
+  $("#price").text(price * 12);
+    $("#price").show();
+});
