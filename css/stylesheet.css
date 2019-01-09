@@ -274,7 +274,20 @@ input[type=submit]:hover {
   background-color: #86888a;
 }
 
+#social-buttons {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;  
+}
+
 footer {
-  margin-top: 38px;
+  padding-top: 23px;
+  padding-bottom: 4px;
   text-align: center;
+  background-color: rgba(95, 213, 136, 0.8);
+}
+
+.legalrights {
+padding-top: 15px;
+font-size: 13px;
 }
